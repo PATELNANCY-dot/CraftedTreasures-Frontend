@@ -14,15 +14,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:14:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -32,7 +28,7 @@
               "RelativeDocumentMoniker": "src\\app\\admin\\components\\dashboard\\dashboard\\dashboard.html",
               "ToolTip": "D:\\angular\\My-FullStack-Angular\\src\\app\\admin\\components\\dashboard\\dashboard\\dashboard.html",
               "RelativeToolTip": "src\\app\\admin\\components\\dashboard\\dashboard\\dashboard.html",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEIAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2026-04-28T09:39:32.319Z",
               "EditorCaption": ""
