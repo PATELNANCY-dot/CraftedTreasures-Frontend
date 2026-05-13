@@ -34,6 +34,8 @@ The platform focuses on uniqueness, craftsmanship, and user experience, providin
 
 ## 📸 Screenshots
 🛍️ User Features
+## 🏠 Home Page(Before Login)
+![Home Page](./Screenshots/HomePage.png)
 
 ###🔐 Login Page
 ![Login Page](./Screenshots/Login.png)
