@@ -35,17 +35,16 @@ The platform focuses on uniqueness, craftsmanship, and user experience, providin
 ## 📸 Screenshots
 🛍️ User Features
 
-🔐 Login Page
+###🔐 Login Page
 ![Login Page](./Screenshots/Login.png)
 
-📝 Registration Page
+###📝 Registration Page
 ![Registration Page](./Screenshots/Registration.png)
 
-🔑 Reset Password Page
+###🔑 Reset Password Page
 ![ Reset Password Page](./Screenshots/ResetPassword.png)
 
-🔒 Change Password Page
-![ Change Password Page](./Screenshots/ChangePassword.png)
+
 
 
 ### 🏠 Home Page
@@ -111,4 +110,6 @@ The platform focuses on uniqueness, craftsmanship, and user experience, providin
 
 ![User List](./Screenshots/userList.png)
 
+###🔒 Change Password Page
+![ Change Password Page](./Screenshots/ChangePassword.png)
 
