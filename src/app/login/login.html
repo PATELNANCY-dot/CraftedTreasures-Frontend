@@ -21,7 +21,7 @@
   <div class="login-glass">
 
     <div class="Login-box">
-      <button class="close-btn"><i class="bi bi-x-lg"></i></button>
+      <button class="close-btn" (click)="close()"><i class="bi bi-x-lg"></i></button>
     </div>
 
     <div class="brand">
@@ -55,8 +55,19 @@
            style="position: absolute; right: 10px; top: 38px; cursor: pointer;">
         </i>
       </div>
+
+
+      <div class="text-end mb-3">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#forgotModal" (click)="step = 1">
+          Forgot Password?
+        </a>
+      </div>
+
       <button type="submit" class="btn btn-login w-100">Login</button>
     </form>
+
+
+  
 
     <div class="register-link">
       Don’t have an account?
@@ -65,5 +76,70 @@
 
   </div>
 
-  </body>
+</body>
 </html>
+
+
+<!-- FORGOT PASSWORD MODAL -->
+
+<div class="modal fade" id="forgotModal" tabindex="-1">
+
+  <div class="modal-dialog modal-dialog-centered">
+
+    <div class="modal-content p-4">
+
+      <!-- STEP 1 EMAIL -->
+
+      <div *ngIf="step === 1">
+
+        <h3 class="mb-3">Forgot Password</h3>
+
+        <input type="email"
+               class="form-control mb-3"
+               placeholder="Enter your email"
+               [(ngModel)]="resetEmail">
+        <button class="btn btn-dark w-100" (click)="sendOtp()" [disabled]="isLoading">
+
+          <span *ngIf="!isLoading">Send OTP</span>
+
+          <span *ngIf="isLoading" class="loader"></span>
+
+        </button>
+
+      </div>
+
+      <!-- STEP 2 OTP -->
+
+      <div *ngIf="step === 2">
+
+        <h3 class="mb-3">Verify OTP</h3>
+
+        <input type="text"
+               class="form-control mb-3"
+               placeholder="Enter OTP"
+               [(ngModel)]="otp">
+
+        <button class="btn btn-dark w-100 mb-2"
+                (click)="verifyOtp()">
+          Verify OTP
+        </button>
+
+
+        <button class="btn btn-outline-secondary w-100"
+                (click)="resendOtp()"
+                [disabled]="isResendingOtp">
+
+          <span *ngIf="!isResendingOtp">Resend OTP</span>
+
+          <span *ngIf="isResendingOtp" class="loader"></span>
+
+        </button>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</div>

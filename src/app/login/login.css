@@ -142,3 +142,245 @@ label {
     color: var(--green-dark);
   }
 
+/* ===== FORGOT PASSWORD MODAL STYLING ===== */
+
+.modal-content {
+  border-radius: 20px;
+  border: none;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+  animation: fadeUp 0.3s ease-in-out;
+}
+
+  /* Modal title */
+  .modal-content h3 {
+    color: var(--green-dark);
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  /* Inputs inside modal */
+  .modal-content .form-control {
+    border-radius: 12px;
+    padding: 12px;
+    border: 1px solid rgba(82, 121, 111, 0.3);
+    transition: 0.3s ease;
+  }
+
+    .modal-content .form-control:focus {
+      border-color: var(--green-soft);
+      box-shadow: 0 0 0 0.2rem rgba(82, 121, 111, 0.2);
+    }
+
+  /* Buttons */
+  .modal-content .btn-dark {
+    background: linear-gradient(135deg, var(--green-dark), var(--green-soft));
+    border: none;
+    border-radius: 12px;
+    padding: 12px;
+    font-weight: 500;
+  }
+
+    .modal-content .btn-dark:hover {
+      opacity: 0.95;
+    }
+
+  .modal-content .btn-success {
+    background: linear-gradient(135deg, var(--green-soft), var(--gold));
+    border: none;
+    border-radius: 12px;
+    padding: 12px;
+    font-weight: 500;
+  }
+
+/* Smooth modal entry */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Optional: center spacing fix */
+.modal-body,
+.modal-content > div {
+  text-align: center;
+}
+
+
+
+
+/* ===== FORGOT PASSWORD MODAL (FULL MODERN GLASS STYLE) ===== */
+
+.modal.fade .modal-dialog {
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+}
+
+.modal.show .modal-dialog {
+  transform: translateY(0);
+}
+
+.modal-content {
+  border-radius: 24px;
+  border: none;
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  padding: 30px;
+}
+
+  /* Modal section titles */
+  .modal-content h3 {
+    color: var(--green-dark);
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 18px;
+  }
+
+  /* Inputs */
+  .modal-content input.form-control {
+    border-radius: 14px;
+    padding: 12px 14px;
+    border: 1px solid rgba(82, 121, 111, 0.3);
+    background: rgba(255,255,255,0.7);
+    transition: 0.3s ease;
+  }
+
+    .modal-content input.form-control:focus {
+      border-color: var(--green-soft);
+      box-shadow: 0 0 0 0.2rem rgba(82, 121, 111, 0.25);
+    }
+
+  /* Buttons */
+  .modal-content .btn-dark {
+    width: 100%;
+    border-radius: 14px;
+    padding: 12px;
+    border: none;
+    font-weight: 500;
+    background: linear-gradient(135deg, var(--green-dark), var(--green-soft));
+  }
+
+    .modal-content .btn-dark:hover {
+      transform: translateY(-1px);
+      opacity: 0.95;
+    }
+
+  .modal-content .btn-success {
+    width: 100%;
+    border-radius: 14px;
+    padding: 12px;
+    border: none;
+    font-weight: 500;
+    background: linear-gradient(135deg, var(--green-soft), var(--gold));
+  }
+
+    .modal-content .btn-success:hover {
+      transform: translateY(-1px);
+      opacity: 0.95;
+    }
+
+  /* Make modal content centered and clean */
+  .modal-content div {
+    text-align: center;
+  }
+
+/* Optional backdrop upgrade */
+.modal-backdrop.show {
+  opacity: 0.6;
+  backdrop-filter: blur(5px);
+}
+
+
+/* ===== FORGOT PASSWORD LINK STYLE ===== */
+
+.text-end a {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--green-soft);
+  text-decoration: none;
+  position: relative;
+  transition: 0.3s ease;
+}
+
+  /* Hover effect */
+  .text-end a:hover {
+    color: var(--green-dark);
+    text-decoration: none;
+  }
+
+  /* Animated underline effect */
+  .text-end a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0%;
+    height: 2px;
+    background: linear-gradient(135deg, var(--green-dark), var(--gold));
+    transition: 0.3s ease;
+    border-radius: 10px;
+  }
+
+  .text-end a:hover::after {
+    width: 100%;
+  }
+
+  /* Click feedback */
+  .text-end a:active {
+    transform: scale(0.96);
+  }
+
+
+/* ===== LOADER SPINNER ===== */
+
+.loader {
+  width: 18px;
+  height: 18px;
+  border: 2px solid rgba(255,255,255,0.4);
+  border-top: 2px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  animation: spin 0.8s linear infinite;
+  vertical-align: middle;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.loader {
+  width: 18px;
+  height: 18px;
+  border: 2px solid rgba(255,255,255,0.4);
+  border-top: 2px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

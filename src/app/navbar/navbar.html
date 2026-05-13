@@ -98,7 +98,7 @@
         <ul class="dropdown-menu dropdown-menu-end">
           <li>
             <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#profileModal">
-              <i class="bi bi-person"></i> Profile 
+              <i class="bi bi-person"></i> Profile
             </a>
           </li>
           <li>
@@ -109,6 +109,7 @@
               <i class="bi bi-heart-fill custom-heart"></i> Wishlist
             </a>
           </li>
+         
           <li><hr class="dropdown-divider"></li>
           <li>
             <a class="dropdown-item" href="#" (click)="logout()"><i class="bi bi-box-arrow-right"></i> Logout </a>
@@ -145,12 +146,24 @@
           <strong>Email:</strong> {{ user?.email ?? 'Not logged in' }}
         </div>
 
-      </div>
+        <hr>
 
-      <div class="modal-footer">
-        <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      </div>
+        <!-- CHANGE PASSWORD LINK (LEFT ALIGNED) -->
+        <div class="change-password-wrapper">
+          <a routerLink="/change-password"
+             class="change-password-link"
+             data-bs-dismiss="modal">
 
-    </div>
+            <i class="bi bi-key-fill me-1"></i>
+            Change Password
+          </a>
+
+        </div>
+
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+
+      </div>
   </div>
 </div>

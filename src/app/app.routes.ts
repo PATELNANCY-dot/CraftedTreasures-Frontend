@@ -9,6 +9,8 @@ import { History } from './history/history';
 import { Login } from './login/login';
 import { Register } from './register/register';
 import { WishList } from './wish-list/wish-list';
+import { ResetPassword } from './reset-password/reset-password';
+import { ChangePassword } from './change-password/change-password';
 
 
 export const routes: Routes = [
@@ -23,11 +25,13 @@ export const routes: Routes = [
       { path: 'treasures', component: Treasures },
       { path: 'cart', component: Cart },
       { path: 'history', component: History },
-      { path: 'wish-list', component: WishList }
+      { path: 'wish-list', component: WishList },
+      { path: 'change-password', component: ChangePassword },
     ]
   },
   { path: 'login', component: Login },
   { path: 'register', component: Register },
+  { path: 'reset-password', component: ResetPassword },
 
   // ADMIN MODULE
   {

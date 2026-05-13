@@ -20,16 +20,24 @@ html, body {
   scrollbar-width: none; 
 }
 
-/* Footer */
 footer {
+  margin-top: auto;
   background: #344e41;
   color: #f6f1e7;
   padding: 2rem 0;
   text-align: center;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
 
-
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 /*swal*/
 
 

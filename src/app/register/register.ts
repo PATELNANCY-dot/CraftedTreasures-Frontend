@@ -79,4 +79,10 @@ export class Register {
         }
       });
   }
+
+
+
+  close() {
+    this.router.navigate(['/home']);
+  }
 }

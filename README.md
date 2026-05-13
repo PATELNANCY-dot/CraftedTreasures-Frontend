@@ -1,59 +1,100 @@
-# MyTaskAngular
+🛍️Crafted Treasures
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.6.
+Bringing handmade artistry to the digital world — a full-stack e-commerce platform for unique, handcrafted products.
 
-## Development server
+📌 Overview
 
-To start a local development server, run:
+Crafted Treasures is a modern e-commerce web application designed to showcase and sell handmade products created by skilled artisans.
 
-```bash
-ng serve
-```
+The platform focuses on uniqueness, craftsmanship, and user experience, providing customers with a seamless way to explore and purchase handcrafted items.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+✨ Features
 
-## Code scaffolding
+    🛒 Product Listing & Categories
+    🔍 Search & Filter Functionality
+    🔐 User Authentication & Authorization
+    🧺 Add to Cart & Checkout
+    📦 Order Management System
+    📊 Admin Dashboard (Manage Products & Orders)
+    📱 Fully Responsive UI
+    
+🛠️ Tech Stack
+  🎨 Frontend
+      Angular
+      TypeScript
+      HTML5, CSS3
+      Bootstrap
+  ⚙️ Backend
+      .NET Core Web API
+      Entity Framework Core
+  🗄️ Database
+      MS SQL Server
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-```bash
-ng generate component component-name
-```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 📸 Screenshots
 
-```bash
-ng generate --help
-```
+### 🏠 Home Page
 
-## Building
+![Home Page](./Screenshots/home.png)
 
-To build the project run:
+### ℹ️ About Us Page
 
-```bash
-ng build
-```
+![About Us Page](./Screenshots/about.png)
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+### 📞 Contact Page
 
-## Running unit tests
+![Contact Page](./Screenshots/contect.png)
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+---
 
-```bash
-ng test
-```
+## 🛍️ User Features
 
-## Running end-to-end tests
 
-For end-to-end (e2e) testing, run:
+### 🎁 Featured Treasures
 
-```bash
-ng e2e
-```
+![Treasures 1](./Screenshots/Tressures1.png)
+![Treasures 2](./Screenshots/Tressures2.png)
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+### ❤️ Wishlist
 
-## Additional Resources
+![Wishlist](./Screenshots/Wishlist.png)
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### 🧺 Cart
+
+![Cart](./Screenshots/Cart.png)
+
+### 💳 Checkout
+
+![Checkout](./Screenshots/Checkout.png)
+
+### 📦 Order History
+
+![Order History](./Screenshots/OrderHestory.png)
+
+---
+
+## 🔐 Admin Panel
+
+### 📊 Admin Dashboard
+
+![Admin Dashboard](./Screenshots/AdminDashboard.png)
+
+### ➕ Add Product
+
+![Add Product](./Screenshots/AddProduct.png)
+
+### 🛒 Product Listing
+
+![Product Listing](./Screenshots/ProductList.png)
+
+
+### 📦 Order Management
+
+![Order List](./Screenshots/orderList.png)
+
+### 👤 User Management
+
+![User List](./Screenshots/userList.png)
+
+

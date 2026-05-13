@@ -284,9 +284,31 @@ body {
   color: var(--gold) !important;
 }
 
-
-
 .custom-heart {
   color: #e53935 !important;
   font-size: 14px;
 }
+
+
+
+
+.change-password-wrapper {
+  text-align: left;
+  margin-top: 8px;
+}
+
+.change-password-link {
+  font-size: 18px;
+  color: #52796f;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: 0.2s ease;
+}
+
+  .change-password-link:hover {
+    color: #52796f;
+    text-decoration: underline;
+  }
