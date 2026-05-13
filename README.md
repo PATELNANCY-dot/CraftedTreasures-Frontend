@@ -49,7 +49,7 @@ The platform focuses on uniqueness, craftsmanship, and user experience, providin
 
 
 
-### 🏠 Home Page
+### 🏠 Home Page(After Login)
 
 ![Home Page](./Screenshots/home.png)
 
