@@ -1,0 +1,47 @@
+<div class="page-container">
+
+  <h2 class="page-title">Contact Messages</h2>
+
+  <div class="table-container">
+
+    <table class="table table-hover">
+
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Full Name</th>
+          <th>Email</th>
+          <th>Message</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+
+      <tbody>
+
+        <tr *ngFor="let contact of contacts">
+
+          <td>{{ contact.contectId }}</td>
+
+          <td>{{ contact.fullName }}</td>
+
+          <td>{{ contact.email }}</td>
+
+          <td class="message-cell">
+            {{ contact.messagees }}
+          </td>
+
+          <td>
+            <span class="status active">
+              Received
+            </span>
+          </td>
+
+        </tr>
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+</div>

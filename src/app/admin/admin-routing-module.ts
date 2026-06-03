@@ -8,6 +8,7 @@ import { ProductList } from './components/products/product-list/product-list';
 import { OrderList } from './components/orders/order-list/order-list';
 import { UserList } from './components/users/user-list/user-list';
 import { AdminLogin } from './components/admin-login/admin-login';
+import { ContactList } from './components/contact-list/contact-list';
 
 const routes: Routes = [
 
@@ -25,6 +26,7 @@ const routes: Routes = [
       { path: 'product-list', component: ProductList },
       { path: 'order-list', component: OrderList },
       { path: 'user-list', component: UserList },
+      { path: 'contact-list', component: ContactList },
 
       { path: '', redirectTo: 'dashboard', pathMatch: 'full' }
 

@@ -3,14 +3,13 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\change-password",
-    "\\src\\app\\home",
-    "\\src\\app\\login",
-    "\\src\\app\\navbar",
-    "\\src\\app\\register",
-    "\\src\\app\\reset-password",
-    "\\src\\app\\Service"
+    "\\src\\app\\admin",
+    "\\src\\app\\admin\\admin-layout",
+    "\\src\\app\\admin\\components",
+    "\\src\\app\\admin\\components\\contact-list",
+    "\\src\\app\\admin\\components\\users",
+    "\\src\\app\\admin\\components\\users\\user-list"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\src\\app\\admin\\admin-layout\\admin-layout.html",
   "PreviewInSolutionExplorer": false
 }

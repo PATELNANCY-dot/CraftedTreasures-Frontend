@@ -11,6 +11,7 @@ import { Register } from './register/register';
 import { WishList } from './wish-list/wish-list';
 import { ResetPassword } from './reset-password/reset-password';
 import { ChangePassword } from './change-password/change-password';
+ 
 
 
 export const routes: Routes = [
