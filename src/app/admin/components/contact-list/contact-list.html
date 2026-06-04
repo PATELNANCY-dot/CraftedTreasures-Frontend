@@ -12,7 +12,7 @@
           <th>Full Name</th>
           <th>Email</th>
           <th>Message</th>
-          <th>Status</th>
+
         </tr>
       </thead>
 
@@ -26,15 +26,19 @@
 
           <td>{{ contact.email }}</td>
 
-          <td class="message-cell">
-            {{ contact.messagees }}
+          <td>
+            <div class="message-box">
+              <span class="message-text">
+                {{ contact.messagees }}
+              </span>
+
+              <span class="message-time">
+                Received
+              </span>
+            </div>
           </td>
 
-          <td>
-            <span class="status active">
-              Received
-            </span>
-          </td>
+        
 
         </tr>
 
