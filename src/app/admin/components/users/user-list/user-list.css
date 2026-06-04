@@ -3,9 +3,11 @@
 }
 
 .page-title {
-  margin-bottom: 20px;
+  font-size: 28px;
   font-weight: 600;
+  margin-bottom: 20px;
 }
+
 
 .table-container {
   background: white;
@@ -53,3 +55,29 @@
   .btn-view:hover {
     background: #000;
   }
+
+/* SEARCH */
+.search-box {
+  margin: 15px 0;
+  display: flex;
+  gap: 8px;
+}
+
+  .search-box input {
+    padding: 6px 10px;
+    width: 250px;
+    border: 1px solid #ddd;
+    outline: none;
+  }
+
+  .search-box button {
+    background: #0d6efd;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+  }
+
+    .search-box button:hover {
+      background: #0b5ed7;
+    }

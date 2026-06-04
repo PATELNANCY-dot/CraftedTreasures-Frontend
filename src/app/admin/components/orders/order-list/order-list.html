@@ -1,8 +1,22 @@
 <div class="page-container">
 
-  <h2 class="page-title">Orders</h2>
+  
 
   <div class="table-container">
+    <h2 class="page-title">Orders</h2>  <p>Total Orders: {{orders.length}}</p>
+
+    <div class="search-box">
+
+      <input type="text"
+             placeholder="Search order by ID, name, email..."
+             [(ngModel)]="searchText"
+             (keyup)="searchOrder()">
+
+      <button (click)="searchOrder()">
+        <i class="bi bi-search"></i>
+      </button>
+
+    </div>
 
     <table class="table table-hover">
 

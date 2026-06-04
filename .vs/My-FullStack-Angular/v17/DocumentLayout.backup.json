@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "src\\app\\admin\\admin-layout\\admin-layout.html",
               "ToolTip": "D:\\angular\\My-FullStack-Angular\\src\\app\\admin\\admin-layout\\admin-layout.html",
               "RelativeToolTip": "src\\app\\admin\\admin-layout\\admin-layout.html",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADcAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2026-06-03T07:03:16.187Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "src\\app\\admin\\components\\users\\user-list\\user-list.ts",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-06-03T07:02:12.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T07:02:12.817Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "src\\app\\admin\\components\\contact-list\\contact-list.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-06-03T06:59:17.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T06:59:17.497Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "src\\app\\admin\\components\\contact-list\\contact-list.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-06-03T06:59:16.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T06:59:16.815Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "src\\app\\admin\\components\\contact-list\\contact-list.ts",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-06-03T06:56:33.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T06:56:33.354Z"
             }
           ]
         }

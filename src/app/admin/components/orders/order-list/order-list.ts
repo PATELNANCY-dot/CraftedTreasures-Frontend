@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { ChangeDetectorRef } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-order-list',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, FormsModule],
   templateUrl: './order-list.html',
   styleUrls: ['./order-list.css']
 })
@@ -14,6 +15,7 @@ export class OrderList {
 
   selectedOrder: any = null;
   showModal: boolean = false;
+  searchText: string = '';
 
   orders: any[] = [];
 
@@ -92,5 +94,35 @@ export class OrderList {
   closeModal() {
     this.showModal = false;
     this.selectedOrder = null;
+  }
+
+
+
+  searchOrder() {
+
+    if (this.searchText.trim() === '') {
+      this.getOrders();
+      return;
+    }
+
+    const api =
+      `https://localhost:7107/api/Admin/SearchOrders?keyword=${this.searchText}`;
+
+    this.http.get<any[]>(api).subscribe({
+      next: (res) => {
+
+        console.log('Search Orders:', res);
+
+        // keep same sorting like original list
+        this.orders = res.sort((a, b) =>
+          new Date(b.orderDate).getTime() - new Date(a.orderDate).getTime()
+        );
+
+        this.cdr.detectChanges();
+      },
+      error: (err) => {
+        console.error('Search Error:', err);
+      }
+    });
   }
 }

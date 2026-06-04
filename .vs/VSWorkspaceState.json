@@ -4,11 +4,14 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\admin",
-    "\\src\\app\\admin\\admin-layout",
     "\\src\\app\\admin\\components",
-    "\\src\\app\\admin\\components\\contact-list",
+    "\\src\\app\\admin\\components\\orders",
+    "\\src\\app\\admin\\components\\orders\\order-list",
+    "\\src\\app\\admin\\components\\products",
+    "\\src\\app\\admin\\components\\products\\product-list",
     "\\src\\app\\admin\\components\\users",
     "\\src\\app\\admin\\components\\users\\user-list"
   ],
+  "SelectedNode": "\\src\\app\\admin\\components\\users\\user-list\\user-list.css",
   "PreviewInSolutionExplorer": false
 }
